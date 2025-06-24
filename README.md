@@ -2,6 +2,9 @@
 
 Este projeto é um frontend em React (Vite) que realiza operações de CRUD (Create, Read, Update, Delete) para produtos, utilizando a API pública disponível em [http://leoproti.com.br:8004/produtos](http://leoproti.com.br:8004/produtos).
 
+![image](https://github.com/user-attachments/assets/b4b79c5a-9f1d-4946-844c-acc9c09a704a)
+
+
 ## Funcionalidades
 
 - Listagem de produtos
