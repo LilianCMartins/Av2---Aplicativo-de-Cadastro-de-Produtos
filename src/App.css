@@ -1,0 +1,55 @@
+/* Suas novas cores */
+:root {
+  --primary-main: #6a1b9a;      /* cor principal */
+  --secondary-main: #ffca28;    /* cor secundária (Navbar) */
+}
+
+/* Botões "containedPrimary" (ex: Salvar) */
+.MuiButton-containedPrimary {
+  background-color: var(--primary-main);
+  color: white;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #7e57c2;
+}
+
+/* NavBar (AppBar) */
+.MuiAppBar-root {
+  background-color: var(--secondary-main);
+  color: black;
+  box-shadow: none;
+}
+
+/* Papel (Paper) do formulário */
+.MuiPaper-root {
+  background-color: #f3f0f5;
+}
+
+/* Exemplo: células de tabela */
+.MuiTableCell-root {
+  border-color: #ddd;
+}
+
+/* Inputs de texto */
+.MuiTextField-root .MuiInputBase-root {
+  background-color: #ffffff;
+}
+
+/* Mantém e adapta os estilos existentes */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Cor para títulos do tipo h6 (formulários) */
+.MuiTypography-h6 {
+  color: #7e57c2;
+}
+
+/* Se quiser especificar ainda mais, dentro do Paper: */
+.MuiPaper-root .MuiTypography-h6 {
+  color: #7e57c2;
+}
+

@@ -51,7 +51,7 @@ Este projeto é um frontend em React (Vite) que realiza operações de CRUD (Cre
 npm run dev
 ```
 
-Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+Acesse [http://localhost:5174/](http://localhost:5174/) no navegador.
 
 ## Estrutura de Pastas Sugerida
 
@@ -66,21 +66,6 @@ Acesse [http://localhost:5173](http://localhost:5173) no navegador.
 - `/novo` — Formulário para cadastrar novo produto
 - `/editar/:id` — Formulário para editar produto existente
 
-## Exemplo de Requisição para a API
-
-```js
-// GET todos os produtos
-axios.get("http://leoproti.com.br:8004/produtos")
-
-// POST novo produto
-axios.post("http://leoproti.com.br:8004/produtos", { nome: "Produto", preco: 10 })
-
-// PUT atualizar produto
-axios.put("http://leoproti.com.br:8004/produtos/1", { nome: "Produto Atualizado", preco: 20 })
-
-// DELETE remover produto
-axios.delete("http://leoproti.com.br:8004/produtos/1")
-```
 
 ## Solução de Problemas de Dependências
 
@@ -101,25 +86,4 @@ Se aparecer erro de importação para alguma biblioteca, execute o comando corre
   npm install axios
   ```
 
-Depois, reinicie o servidor de desenvolvimento:
 
-```bash
-npm run dev
-```
-
----
-
-## Erro comum: "Failed to resolve import 'react-router-dom'"
-
-Esse erro indica que a dependência `react-router-dom` não está instalada.  
-Execute:
-
-```bash
-npm install react-router-dom
-```
-
-Repita o comando para outras dependências se necessário, conforme mostrado acima.
-
----
-
-Siga as instruções acima para rodar e explorar o projeto!
