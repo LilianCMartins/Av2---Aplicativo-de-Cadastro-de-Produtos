@@ -1,4 +1,4 @@
-# Trabalho Final - Frontend React CRUD Produtos
+# Avaliação Final - Frontend React CRUD Produtos
 
 Este projeto é um frontend em React (Vite) que realiza operações de CRUD (Create, Read, Update, Delete) para produtos, utilizando a API pública disponível em [http://leoproti.com.br:8004/produtos](http://leoproti.com.br:8004/produtos).
 
@@ -86,4 +86,25 @@ Se aparecer erro de importação para alguma biblioteca, execute o comando corre
   npm install axios
   ```
 
+Depois, reinicie o servidor de desenvolvimento:
 
+```bash
+npm run dev
+```
+
+---
+
+## Erro comum: "Failed to resolve import 'react-router-dom'"
+
+Esse erro indica que a dependência `react-router-dom` não está instalada.  
+Execute:
+
+```bash
+npm install react-router-dom
+```
+
+Repita o comando para outras dependências se necessário, conforme mostrado acima.
+
+---
+
+Siga as instruções acima para rodar e explorar o projeto!
