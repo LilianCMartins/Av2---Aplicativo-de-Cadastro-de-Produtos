@@ -97,6 +97,10 @@ npm run dev
 
 ---
 
+## Para acessar o projeto 
+
+Entre no link https://av2-aplicativo-de-cadastro-de-produ-liart.vercel.app/
+
 ## Erro comum: "Failed to resolve import 'react-router-dom'"
 
 Esse erro indica que a dependência `react-router-dom` não está instalada.  
