@@ -112,6 +112,10 @@ npm install react-router-dom
 
 Repita o comando para outras dependências se necessário, conforme mostrado acima.
 
+## Autora
+
+Lilian Martins
+
 ---
 
 Siga as instruções acima para rodar e explorar o projeto!
